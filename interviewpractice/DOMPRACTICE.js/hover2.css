@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.elem h1 {
+  position: relative;
+  z-index: 9;
+  mix-blend-mode: difference;
+  font-size: 3vw;
+}
+#main .elem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 2px solid white;
+  position: relative;
+  height: 120px;
+}
+#main .elem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all linear 0.2s;
+  opacity: 0;
+  object-position: top;
+  position: absolute;
+}
