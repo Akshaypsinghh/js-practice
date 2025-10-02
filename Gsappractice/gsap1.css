@@ -9,5 +9,8 @@ body {
   height: 100%;
   background-color: black;
 }
-svg {
+#string {
+  width: 100%;
+  height: 200px;
+  background-color: red;
 }
