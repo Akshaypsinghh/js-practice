@@ -1,0 +1,16 @@
+# scope=> (variable ka use kya tak hosakta hai)
+
+functional scope=>function ke andar hi use ho sakti hai.
+global scope=>poore code me use ho sakta hai..
+block scope=>{}curly braces ke andar hi use ho sakta hai.
+
+agar apka variable kisibhi {} ke andar nahi hai to woh global scope me hai..Agar kisi function ke andar ke hai to woh functional scope hai..Agar kisi {} hai to block scope hai..
+
+#execution content=>js  jaise hi js aapka function dekhta hai sabse pehle woh execution context banata hai , ye ek process hai jo do phase me chalta hai 1.Memory phase 2. Execution phase..ye function ke execution se pehle create hota hai jab jsengine kisi  function ko call krta hai....
+
+#Lexical scope and Dynamic scope=>js->lexical scoping =js me function apne variables ko dekhte hai jaha se woh define huyee ho naki waha se jaha se woh call kiye jaa rhe ho..example*
+
+#closures=> functions jo kisi parent fnc ke andar ho aur andar wala fnc return horaha ho and returning fnc parent fnc ka koi variable use kar raha ho..example*
+fayde  -> 1.variables ko private kar sakte ho..
+2.gobal variables ke pollution ko sambhal sakte ho..
+3.encapsulation
