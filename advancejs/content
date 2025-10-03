@@ -13,4 +13,19 @@ agar apka variable kisibhi {} ke andar nahi hai to woh global scope me hai..Agar
 #closures=> functions jo kisi parent fnc ke andar ho aur andar wala fnc return horaha ho and returning fnc parent fnc ka koi variable use kar raha ho..example*
 fayde  -> 1.variables ko private kar sakte ho..
 2.gobal variables ke pollution ko sambhal sakte ho..
-3.encapsulation
+3.encapsulation(jitna code jaruri hai utna hi dikhana baaki ka complex code ko hide kar dena..)
+
+#This keyword(special word)->This keyword is dynamic in nature.
+Values of this keyword in:
+global scope->window object
+funtional scope->window object
+Method with es5 normal fnc ->object
+Method with es6 arrow fnc->window
+es5 funtion with es5 Method->window
+es6 funtion with es6 Method->object
+Event handler->element
+Class->Blank object 
+
+
+
+
