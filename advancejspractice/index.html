@@ -3,108 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend Manager</title>
+    <title>Document</title>
     <style>
       body {
-        background: #121212;
-        font-family: "Segoe UI", sans-serif;
-        color: #eee;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-
-      .friend-form {
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        padding: 2rem;
-        border-radius: 16px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-        width: 100%;
-        max-width: 400px;
-      }
-
-      .friend-form h2 {
-        text-align: center;
-        margin-bottom: 1.5rem;
-        color: #fff;
-      }
-
-      .form-group {
-        margin-bottom: 1rem;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 0.5rem;
-        color: #ccc;
-      }
-
-      input {
-        width: 100%;
-        padding: 0.75rem;
-        background: #1e1e1e;
-        border: 1px solid #333;
-        border-radius: 8px;
-        color: #eee;
-        font-size: 1rem;
-      }
-
-      .btn-group {
-        display: flex;
-        gap: 1rem;
-        margin-top: 1rem;
-      }
-
-      button {
-        flex: 1;
-        padding: 0.75rem;
-        border: none;
-        border-radius: 8px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: transform 0.2s ease;
-      }
-
-      .add-btn {
-        background: #00c853;
-        color: #fff;
-      }
-
-      .remove-btn {
-        background: #d50000;
-        color: #fff;
-      }
-
-      button:hover {
-        transform: scale(1.05);
+        background-color: #111;
       }
     </style>
   </head>
   <body>
-    <div class="friend-form">
-      <h2>Manage Friends</h2>
-      <form id="friendForm">
-        <div class="form-group">
-          <label for="friendName">Friend's Name</label>
-          <input
-            type="text"
-            id="friendName"
-            placeholder="Enter name"
-            required
-          />
-        </div>
-        <div class="btn-group">
-          <button type="button" class="add-btn" id="addFriend">Add</button>
-          <button type="button" class="remove-btn" id="removeFriend">
-            Remove
-          </button>
-          <ul id="friendList"></ul>
-        </div>
-      </form>
-    </div>
-    <script type="module" src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
